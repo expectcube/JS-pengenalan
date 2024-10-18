@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penghitung</title>
+    <script>
+        function hitung() {
+            const panjang = parseFloat(document.getElementById('panjang').value);
+            const lebar = parseFloat(document.getElementById('lebar').value);
+            const tinggi = parseFloat(document.getElementById('tinggi').value);
+            const hasil = 2 * ((panjang * lebar) + (panjang * tinggi) + (lebar * tinggi));
+            document.getElementById('hasil').value = hasil;
+       
+        }
+    </script>
+    
+</head>
+<body>
+    <h1>Kalkulator Balok</h1>
+    <label for="">Tinggi</label>
+    <input type="number" id="tinggi"><br>
+    <label for="">Panjang</label>
+    <input type="number" id="panjang"><br>
+    <label for="">Lebar</label>
+    <input type="number" id="lebar"><br>
+    <button onclick="hitung()">Hitung</button><br><br>
+    <label for="">Luas Permukaan Balok</label>
+    <input type="number" id="hasil" readonly>
+
+    
+</body>
+</html>
