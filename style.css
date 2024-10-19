@@ -1,24 +1,99 @@
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    border: 6px;
+    border: 1px solid black;
+    max-width: 600px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c6eed0;
 }
 
 a.button {
     border: 6px;
-    background-color: aqua;
-    border-radius: 6px;
+    background-color: #03925e; 
+    border-radius: 4px;
     color: white;
     text-decoration: none;
-    padding: 3px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     
 
 }
 
 label{
     float: left;
+    width: 120px;
+    padding-top: 5px;
 }
 
-form{
-    border: 5px;
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=date],
+input[type=password],
+input[type=number],
+textarea,
+select{
+
+ width: 350px;
+ height: 25px;
+ padding-left: 10px;
+ padding-right: 10px;
+
+}
+
+.form-title{
+    background-color:#63d37f;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 35px;
+    text-wrap: 1px;
+    width: 100%;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: -20px;
+    
+
+    
+}
+
+.ButtonWarna{
+    background-color: #63d37f;
+    border: none;
+    padding: 15px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+.navbar {
+    background-color: #04AA6D;
+    text-align: center;
+    padding: 20px;
+    margin-left: -20px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.element{
+        background-color: #04AA6D;
+        text-align: center;
+        padding-left: 40px;
+        margin-left: -20px;
+        width: 100%;
+        margin-bottom: 15px;
+
+
+
+
 
 }
