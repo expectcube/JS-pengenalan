@@ -14,15 +14,19 @@
             document.getElementById('volume').value = volume;
        
         }
-        function clear(){
-            document.getElementById("panjang").reset();
+        function clearResult(){
+            document.getElementById("volume").value = ''
+            document.getElementById("tinggi").value = ''
+            document.getElementById("lebar").value = ''
+            document.getElementById("panjang").value = ''
         }
+        
     </script>
     
 </head>
 <body>
         <div class="form-title">
-            <h1>Kalkulator Volume Balok</h1>
+            <h1>Kalkulator Balok</h1>
         </div>
         <nav class="navbar">
             <a href="index.html" class="tersentuh">Volume Balok</a>      
@@ -37,9 +41,10 @@
                 <input type="number" id="lebar"><br>
         <div class="element">
                 <button onclick="hitung()" class="ButtonWarna">Hitung</button>
-                <button onclick="document.clear()" class="ButtonWarnaM">Reset</button><br><br>
+                <input type="button" value="Reset" onclick="clearResult()" class="ButtonWarnaM">
+
         </div>   
-                <label for="">Volume Balok</label>
+                <label for="">Hasil</label>
                 <input type="number" id="volume" readonly>
 
     
